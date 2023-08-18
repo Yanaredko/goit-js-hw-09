@@ -45,7 +45,7 @@ document.querySelector("[data-start]").addEventListener("click", () => {
   const selectedDate = dateTimePicker.selectedDates[0];
     const currentDate = new Date();
     let timeDifference = selectedDate - currentDate;
-
+    
     const daysDisplay = document.querySelector("[data-days]");
     const hoursDisplay = document.querySelector("[data-hours]");
     const minutesDisplay = document.querySelector("[data-minutes]");
